@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url(fontes/BebasNeue-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    margin-bottom: 0px;
+    margin: 0px;
+    background-color: #9be1ba;
+}
+header{
+    color: white;
+    height: 160px;
+    background-image: linear-gradient(to top,#1C633B,#247F4C,#2FAA66 );
+    padding-bottom: 5px;
+}
+#texto1{
+    text-align: center;
+    font-family: 'bebas';
+    font-weight: 100;
+    font-size: 16px;
+
+}
+
+#texto1>h1{
+    margin: 0px;
+
+    padding-top: 18px;
+}
+#texto2{
+    width: 370px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#texto2>p{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+nav{
+
+    
+    padding-left: 5px;
+}
+
+.link{
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-size: 16px;
+}
+.link:hover{
+
+    background-color: #9be1ba;
+    color: rgb(1, 54, 1);
+    border-radius: 8px;
+    text-decoration: underline;
+
+    padding-top:5px ;
+    padding-left:5px ;
+    padding-right:5px ;
+    padding-bottom:5px ;
+
+}
+
+
+
+main{
+    margin-top: 0px;
+    margin: auto;
+    
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-width: 320px;
+    max-width: 800px;
+    height: 1450px;
+    background-color: white;
+}
+
+main>h1{
+    font-family:'idroid',sans-serif;
+    color: rgb(1, 89, 1);
+}
+main>p{
+    text-indent: 2em; /* recuo da primeira linha */
+    text-align: justify; /* alinhamento justificado (opcional) */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+main>h2{
+    font-family: 'idroid',sans-serif;
+    color: rgb(1, 89, 1);
+    background-image: linear-gradient(to right,#beecbe,#ffffff);
+    padding-left: 5px;
+    font-size: 24px;
+}
+
+.text3{
+    text-decoration: none;
+    color:rgb(15, 129, 15) ;
+}
+
+.text3:hover{
+    text-decoration: underline;
+}
+
+.link2{
+    width: 10px;
+}
+
+#video{
+    margin: auto;
+    height: 400px;
+    width: 830px;
+    background-color: rgb(0, 42, 0);
+}
+
+#video>#video2{
+    text-align:center;
+    padding-top: 15px;
+}
+
+#final{
+    margin-top: 0px;
+    margin: auto;
+    padding-top: 10px;
+    height:500px ;
+    width: 830px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+    background-color: white;
+}
+
+#lista{
+    margin: auto;
+    background-color: #9be1ba;
+    height: 420px;
+    width: 790px;
+    border-radius: 10px;
+
+
+    
+}
+
+#lista>#fim2{
+    margin: auto;
+    margin-top: 0px;
+    background-color:rgb(15, 165, 15) ;
+    color: white;
+    font-family: sans-serif;
+    text-indent: 2em;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    padding-top: 3px;
+    
+    
+}
+#lista>#fim2>h3{
+    margin-top: 0px;
+}
+
+#lista>p{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 5px;
+
+    text-indent: 2em; /* recuo da primeira linha */
+    text-align: justify; /* alinhamento justificado (opcional) */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+#lista>.container>.lista2{
+    list-style: none;
+    padding-left: 0px;
+}
+#lista>.container>.lista2>li::before{
+    content: "✔"; /* símbolo de check */
+    color: black;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-left: 5px;
+}
+#lista>.container>.lista2>li>abbr{
+    text-decoration: underline;
+    
+}
+#lista>.container>.lista2>li{
+    font-family: sans-serif;
+}
+#lista>.container{
+    display: flex;
+    gap: 200px;
+}
+
+#final>p{
+    padding: 0px 15px 0px 15px;
+    text-indent: 2em; /* recuo da primeira linha */
+    text-align: justify; /* alinhamento justificado (opcional) */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+#final>p>span{
+    color: #045d2b;
+}
+
+#fim{
+    margin-bottom: 0px;
+    margin-top: 21px;
+    text-align: center;
+    background-color: #0d2c1a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}

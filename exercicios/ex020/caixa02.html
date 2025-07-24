@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        header{
+            background-color: white;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            margin-right: 10px;
+            margin-left: 10px;
+            
+        }
+        main{
+            background-color: white;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            border-radius: 20px  ;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+        footer > p{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        article{
+            background-color: lightgray;
+            padding-bottom: 5px;
+            padding-top: 10px;
+
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+          
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding-left: 3px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        
+            box-shadow: 5px 3px 7px 1px gray;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav>a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio odit labore officia ipsa neque velit nulla atque minima a necessitatibus vero alias consequatur, sapiente est earum, laboriosam nobis sit. Veritatis?</p>
+                <aside>
+                    <p>Artigo escrito por Jose silva </p>
+                </aside>
+            </article>
+            <article>
+                <aside>
+
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+</body>
+</html>
